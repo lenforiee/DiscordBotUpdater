@@ -1,0 +1,8 @@
+{
+"token": "bot token here",
+"db_host": "localhost",
+"db_user": "misumi",
+"db_password": "database password",
+"db_database": "database name",
+"api": "api link here eg.http://5.83.161.92:5001/api/v1/"
+}
