@@ -19,12 +19,12 @@ async function getOnlinePlayers() {
 };
 getOnlinePlayers().then(data => onlinePlayers = data.result);
 
-console.log("Connected to MySQL Successfully");
 connection.connect();
+console.log("Connected to MySQL Successfully");
 
-var sql = "SELECT COUNT(id) as total FROM users WHERE id != 4";
+var count = "SELECT COUNT(id) as total FROM users WHERE id != 4";
 
-var query = connection.query(sql, function(err, players) {
+var query = connection.query(count, function(err, players) {
     allPlayers = players[0].total
     console.log(`Total players ${allPlayers}`)
       client.on('ready', () => {
