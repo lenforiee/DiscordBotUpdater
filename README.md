@@ -1,4 +1,5 @@
 # Status-updater-script
+Script is used to show amount of players and onlineplayers on bot (osu private server only)
 Status script used for Nahoko server bot to refresh status every 3 minutes (it's made for learning purposes, it's not recommended to use it on own hand)
 
 How to install? It's simple
