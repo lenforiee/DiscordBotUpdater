@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({autoReconnect: true});
 const mysql = require("mysql");
-const sqlstring = require("sqlstring");
-var colors = require('colors/safe');
 const config = require('./config.json');
 const fetch = require("node-fetch");
 
