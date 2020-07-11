@@ -18,3 +18,5 @@ You might have to install also pm2 as cron is based on this module, to install i
 Now just run both JavaScript files using:
 
 `pm2 start status.js` and `pm2 start cron.js`
+
+If you want to monitor is everything is alright with scripts just do `pm2 monit` and check if cron executing a task after 3 minutes
